@@ -7,25 +7,25 @@
         <version>1.614</version>
     </parent>
 
-    <artifactId>rally-plugin</artifactId>
+    <artifactId>rally-bookkeeper</artifactId>
     <packaging>hpi</packaging>
-    <name>Rally Plugin</name>
-    <version>1.5-SNAPSHOT</version>
-    <url>https://wiki.jenkins-ci.org/display/JENKINS/Rally+plugin</url>
-    <description>Updates Rally Task and ChangeSet</description>
+    <name>Rally Bookkeeper</name>
+    <version>1.0-SNAPSHOT</version>
+    <url>https://mike-rogers.github.io/rally-bookkeeper</url>
+    <description>Updates Rally Task and ChangeSet data based on your commit messages</description>
 
     <developers>
         <developer>
-            <id>tushar686</id>
-            <name>Tushar Shinde</name>
-            <email>tushar686@gmail.com</email>
+            <id>mike-rogers</id>
+            <name>R. Michael Rogers</name>
+            <email>r.m.rogers@gmail.com</email>
         </developer>
     </developers>
 
     <scm>
-        <connection>scm:git:ssh://github.com/jenkinsci/rally-plugin.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/jenkinsci/rally-plugin.git</developerConnection>
-        <url>http://github.com/jenkinsci/rally-plugin</url>
+        <connection>scm:git:ssh://github.com/mike-rogers/rally-bookkeeper.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/mike-rogers/rally-bookkeeper.git</developerConnection>
+        <url>https://github.com/mike-rogers/rally-bookkeeper</url>
     </scm>
 
     <licenses>

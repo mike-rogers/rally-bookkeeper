@@ -1,6 +1,6 @@
-## Jenkins Rally Plug-in
-[![Build Status](https://travis-ci.org/mike-rogers/rally-plugin.svg?branch=minor-refactoring)](https://travis-ci.org/mike-rogers/rally-plugin)
-[![Coverage Status](https://coveralls.io/repos/mike-rogers/rally-plugin/badge.svg)](https://coveralls.io/r/mike-rogers/rally-plugin)
+## Rally Bookkeeper
+[![Build Status](https://travis-ci.org/mike-rogers/rally-bookkeeper.svg)](https://travis-ci.org/mike-rogers/rally-bookkeeper)
+[![Coverage Status](https://coveralls.io/repos/mike-rogers/rally-bookkeeper/badge.svg)](https://coveralls.io/r/mike-rogers/rally-bookkeeper)
 
 This is a Jenkins Plug-in which
 
@@ -8,7 +8,7 @@ This is a Jenkins Plug-in which
 1. picks up Task details [status, actual hrs, todo hrs etc] from scm comments (if provided) and updates rally task details accordingly.
 1. saves developers the effort of writing, installing, and maintaining check-in hooks for SCM tools (svn, cvs, perforce etc) in order to update Rally changsets, a task which is especially difficult if your organisation uses more than one configuration management tool.
 
-For more information, please see the [wiki page](https://wiki.jenkins-ci.org/display/JENKINS/Rally+plugin).
+For more information, please see the [project page](https://mike-rogers.github.io/rally-bookkeeper).
 
 ### Updating Task Information
 
