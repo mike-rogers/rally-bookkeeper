@@ -1,17 +1,15 @@
 name: Jenkins Plugin
 markdown: redcarpet
 highlighter: pygments
-github: https://github.com/mike-rogers/rally-plugin
-baseurl: /rally-plugin
+github: https://github.com/mike-rogers/rally-bookkeeper
+baseurl: /rally-bookkeeper
 
 urls:
   - text: github
-    url: https://github.com/mike-rogers/rally-plugin
+    url: https://github.com/mike-rogers/rally-bookkeeper
   - text: issues
-    url: https://github.com/mike-rogers/rally-plugin/issues
+    url: https://github.com/mike-rogers/rally-bookkeeper/issues
   - text: jenkins ci
     url: https://jenkins-ci.org
   - text: rally dev
     url: https://www.rallydev.com
-  - text: twitter
-    url: https://twitter.com/mikerogers_
