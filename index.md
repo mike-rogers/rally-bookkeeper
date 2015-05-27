@@ -7,7 +7,7 @@ layout: default
 ### I dislike logging into Rally.
 You've committed your code, wrapped up the story, but now you have to log back into Rally (my organization makes me log in every three hours. THREE!) and update all the things.
 
-**OR** you could install this plugin and just phrase your commit messages in a more deliberate fashion and let the Bookkeeper handle the bookkeeping.
+**OR** you could install this plugin and just phrase your commit messages in an extremely particular fashion and let the Bookkeeper handle the bookkeeping.
 
 ### Configuration
 Once you've installed the plugin through the normal channels (or by downloading the HPI file from the link in the upper right) you'll need to configure the plugin for your build.
@@ -36,7 +36,7 @@ The plugin can update your Task information based on the commit messages you sup
 
 * `TA12345` -- you can use this syntax to reference a specific Task under a Work Item
 * `#3` -- you can also use this syntax. This is read as "Task #3 under the referenced Work Item"
-* `status:` udpates the Task's status to one of "In-Progress", "Defined", or "Completed". **Setting a status to "Completed" will automatically set the 'to do' field to 0**
+* `status:` updates the Task's status to one of "In-Progress", "Defined", or "Completed". **Setting a status to "Completed" will automatically set the 'to do' field to 0**
 * `todo:` updates the Task's "hours remaining" metric
 * `actuals:` updates how long you've spent implementing a specific task
 * `estimates:` updates the estimate for a specific task
