@@ -11,7 +11,7 @@
     <packaging>hpi</packaging>
     <name>Rally Bookkeeper</name>
     <version>1.0-SNAPSHOT</version>
-    <url>https://mike-rogers.github.io/rally-bookkeeper</url>
+    <url>https://wiki.jenkins-ci.org/display/JENKINS/Rally+Bookkeeper</url>
     <description>Updates Rally Task and ChangeSet data based on your commit messages</description>
 
     <developers>
