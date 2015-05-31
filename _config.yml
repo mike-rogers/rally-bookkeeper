@@ -4,6 +4,8 @@ highlighter: pygments
 github: https://github.com/mike-rogers/rally-bookkeeper
 baseurl: /rally-bookkeeper
 
+exclude: ["work"]
+
 urls:
   - text: github
     url: https://github.com/mike-rogers/rally-bookkeeper
