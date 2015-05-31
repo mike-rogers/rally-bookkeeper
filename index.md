@@ -22,14 +22,15 @@ Once added, you'll be presented with the following:
 
 * **Rally API Key**: Rally has moved to a token-based authentication instead of the old "username and password" standard. To create your own API key, go to the [Rally token page](https://rally1.rallydev.com/login), click `API Keys`, and then "Create your own API key". Once created, you'll want to copy that key into this field.
 * **Rally Workspace Name**: Your workspace has a name. It should go here.
-* **Rally Repository Name**: This one is tricky. I couldn't find a way to create my own SCMRepository object within the context of a Rally Workspace, so I had to write a small program to do it. If you know yours, add it here. If not, ... good luck! No, seriously, there's an issue [right here](https://github.com/mike-rogers/rally-plugin/issues/4) that will make this go away. Just give me a bit.
+* **Rally Repository Name**: The name of the Repository object in Rally that you want the commits associated with. If you don't know what this is, just supply a generic value and check the checkbox for the "should create changeset" configuration option.
+* **Create Repository if it doesn't already exist??**: If you're supplying a new repository name and you haven't manually created it, this is a great box to check.
 * **Commit URI**: Now we get to the fun stuff. This is a template of a URL that will be applied to all Changeset items (or "commits") that Rally adds. For example, if you're using GitHub, you may want your Changeset to link to `https://github.com/yourname/project-name/commit/[hash here]`. The way to do that is supply `https://github.com/yourname/project-name/commit/${revision}`.
 * **File URI**: This is the same template of a URL but will be applied to each individual file (Change) in the Changeset. For example, if you're using GitHub, you may want your Change to link to `https://github.com/yourname/project-name/blob/[hash-here]/src/filename.rb`. The way to do that is to supply `https://github.com/yourname/project-name/blob/${revision}/${file}`.
 * **Update Changes**: Select one from the dropdown.
 * **Turn on debug level?**: If you select this you will get a teensy bit of debugging output in your build's log files.
 * **Proxy URI**: This is a URI representing an HTTP proxy, if your build system is behind a proxy. You can add a username/password pair using this syntax: `http://username:password@myproxy.com:12345`.
 
-### Commit Syntax
+### Commit Syntax (optional)
 Once you get the plugin configured you will likely need to change the way you author your commit statements.
 
 The plugin can update your Task information based on the commit messages you supply. Here is a guide:
